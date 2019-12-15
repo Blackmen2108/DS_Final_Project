@@ -44,3 +44,104 @@ Ta sẽ train với gần 3000 sản phẩm đó (nếu cần thiết sẽ tự 
     - Xét mức độ mạnh mẽ của chi tiết đó (dựa trên thông số, thành phần của chi tiết)
     
  Đối với các cột có quá nhiều giá trị None, ta có thể loại bỏ các cột đó
+
+### 4) Thông tin sản phẩm cho dataset ở thư mục data
+    Brand and model_Brand : tên nhãn hiệu của công ty sản xuất
+    Brand and model_Model : tên model của thiết bị
+    Brand and model_Model alias : tên thay thế
+    Design_Width : thông tin chiều rộng
+    Design_Height : thông tin chiều cao
+    Design_Thickness : thông tin bề dày
+    Design_Weight : thông tin khối lượng
+    Design_Volume : thông tin thể tích
+    Design_Colors : thông tin màu sắc
+    Design_Body materials : chất liệu sản xuất
+    Design_Certification : Thông tin về chuẩn chứng nhận của thiết kế
+    SIM card_SIM card type : loại và kích thước của SIM
+    SIM card_Number of SIM cards : số lượng SIM
+    SIM card_Features : các tính năng về  SIM
+    Networks_GSM : mạng điện thoại 1G
+    Networks_CDMA : mạng điện thoại 2G - 2.5G
+    Networks_CDMA2000 : mạng điện thoại 3G
+    Networks_W-CDMA : mạng điện thoại 3G
+    Networks_TD-SCDMA : mạng điện thoại 3G
+    Networks_UMTS : mạng điện thoại 3G
+    Networks_LTE : mạng điện thoại 4G
+    Mobile network technologies and bandwidth_Mobile network technologies : công nghệ mạng được sử dụng kèm băng thông
+    Operating system_Operating system (OS) : hệ điều hành được sử dụng
+    Operating system_User interface (UI) : giao diện được sử dụng
+    System on Chip (SoC)_SoC : tên SoC
+    System on Chip (SoC)_Process technology : thông tin về công nghệ xử lý 
+    System on Chip (SoC)_CPU : CPU
+    System on Chip (SoC)_CPU bits : Kích thước bit 
+    System on Chip (SoC)_Instruction set : Thông tin tập lệnh bộ xử lý có thể thực hiện
+    System on Chip (SoC)_Level 2 cache memory (L2) : Bộ nhớ cache Level 2
+    System on Chip (SoC)_CPU cores : Số core CPU
+    System on Chip (SoC)_CPU frequency : Tốc độ CPU
+    System on Chip (SoC)_GPU : GPU
+    System on Chip (SoC)_GPU cores : Số lượng core GPU 
+    System on Chip (SoC)_GPU frequency : Tốc độ GPU
+    System on Chip (SoC)_RAM capacity : Dung lượng RAM
+    System on Chip (SoC)_RAM type : Loại RAM
+    System on Chip (SoC)_RAM channels : RAM channel
+    System on Chip (SoC)_RAM frequency : Tốc độ RAM
+    Storage_Storage : Bộ nhớ
+    Memory cards_Types : Loại thẻ nhớ
+    Display_Type/technology : Loại / Công nghệ màn hình
+    Display_Diagonal size : Kích thước đường chéo
+    Display_Width : Chiều rộng
+    Display_Height : Chiều cao
+    Display_Aspect ratio : Tỉ lệ cạnh
+    Display_Resolution : 
+    Display_Pixel density : 
+    Display_Color depth : 
+    Display_Display area : 
+    Display_Other features : Các tính năng khác
+    Sensors_Sensors : Các sensor tích hợp
+    Primary camera_Sensor model : Sensor model
+    Primary camera_Sensor type : Loại Sensor
+    Primary camera_ISO : Đánh giá ISO
+    Primary camera_Aperture : Khẩu độ
+    Primary camera_Flash type : Loại đèn Flash
+    Primary camera_Image resolution : Độ phân giải hình ảnh
+    Primary camera_Video resolution : Độ phân giản video
+    Primary camera_Video FPS : số khung hình / giây được hỗ trợ
+    Primary camera_Features : Các tính năng khác của video
+    Primary camera_Focal length : Focal length
+    Secondary camera_Sensor model : Sensor model
+    Secondary camera_Sensor type : Loại Sensor
+    Secondary camera_ISO : Đánh giá ISO
+    Secondary camera_Aperture : Khẩu độ
+    Secondary camera_Flash type : Loại đèn Flash
+    Secondary camera_Image resolution : Độ phân giải hình ảnh
+    Secondary camera_Video resolution : Độ phân giản video
+    Secondary camera_Video FPS : số khung hình / giây được hỗ trợ
+    Secondary camera_Features : Các tính năng khác của video
+    Secondary camera_Focal length : Focal lengthAudio_Speaker : Công nghệ Audio
+    Radio_Radio : FM radio
+    Tracking/Positioning_Tracking/Positioning : Các dịch vụ theo dõi, định vị
+    Wi-Fi_Wi-Fi : Các tiêu chuẩn, loại giao tiếp Wi-Fi
+    Bluetooth_Version : Phiên bản Bluetooth
+    Bluetooth_Features : Các tính năng Bluetooth
+    USB_Connector type : Loại kết nối USB
+    USB_Version : Phiên bản kết nối USB
+    USB_Features : Các tính khác của kết nối USB
+    HDMI_HDMI : Kết nối HDMI
+    Headphone jack_Headphone jack : Thông tin cho biết thiết bị có được kết nối với audio jack 3.5 mm không
+    Connectivity_Connectivity : Các công nghệ kết nối được hỗ trợ
+    Browser_Browser : Chuẩn hỗ trợ của browser
+    Audio file formats/codecs_Audio file formats/codecs : Các format audio file được hỗ trợ
+    Video file formats/codecs_Video file formats/codecs : Các format video file được hỗ trợ
+    Battery_Capacity : Dung lượng Pin
+    Battery_Type : Loại Pin
+    Battery_2G stand-by time : thời gian sạc đi kết nối 2G liên tục 
+    Battery_3G stand-by time : thời gian sạc khi kết nối 3G liên tục
+    Battery_Charger output power : 
+    Battery_Features : các thuộc tính khác của Pin
+    Battery_Quick charge technology : 
+    Specific Absorption Rate (SAR)_Head SAR (EU) : SAR rating cho thấy lượng bức xạ người có thể chịu được cho phần đầu theo chuẩn EU
+    Specific Absorption Rate (SAR)_Body SAR (EU) : SAR rating cho thấy lượng bức xạ người có thể chịu được cho phần thân theo chuân EU
+    Specific Absorption Rate (SAR)_Head SAR (USA) : SAR rating cho thấy lượng bức xạ người có thể chịu được cho phần đầu theo chuẩn USA
+    Specific Absorption Rate (SAR)_Body SAR (USA) : SAR rating cho thấy lượng bức xạ người có thể chịu được cho phần thân theo chuẩn USA
+    Additional features_Additional features : các tính năng khác 
+    Price : giá sản phẩm
