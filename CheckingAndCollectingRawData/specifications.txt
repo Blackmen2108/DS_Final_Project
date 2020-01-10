@@ -1,0 +1,28 @@
+Brand and model,Brand,Model,Model alias
+Design,Width,Height,Thickness,Weight,Volume,Colors,Body materials,Certification
+SIM card,SIM card type,Number of SIM cards,Features
+Networks,GSM,CDMA,CDMA2000,W-CDMA,TD-SCDMA,UMTS,LTE
+Mobile network technologies and bandwidth,Mobile network technologies
+Operating system,Operating system (OS),User interface (UI)
+System on Chip (SoC),SoC,Process technology,CPU,CPU bits,Instruction set,Level 2 cache memory (L2),CPU cores,CPU frequency,GPU,GPU cores,GPU frequency,RAM capacity,RAM type,RAM channels,RAM frequency
+Storage,Storage
+Memory cards,Types
+Display,Type/technology,Diagonal size,Width,Height,Aspect ratio,Resolution,Pixel density,Color depth,Display area,Other features
+Sensors,Sensors
+Primary camera,Sensor model,Sensor type,ISO,Aperture,Flash type,Image resolution,Video resolution,Video FPS,Features,Focal length
+Secondary camera,Sensor model,Sensor type,ISO,Aperture,Flash type,Image resolution,Video resolution,Video FPS,Features,Focal length
+Audio,Speaker
+Radio,Radio
+Tracking/Positioning,Tracking/Positioning
+Wi-Fi,Wi-Fi
+Bluetooth,Version,Features
+USB,Connector type,Version,Features
+HDMI,HDMI
+Headphone jack,Headphone jack
+Connectivity,Connectivity
+Browser,Browser
+Audio file formats/codecs,Audio file formats/codecs
+Video file formats/codecs,Video file formats/codecs
+Battery,Capacity,Type,2G stand-by time,3G stand-by time,Charger output power,Features,Quick charge technology
+Specific Absorption Rate (SAR),Head SAR (EU),Body SAR (EU),Head SAR (USA),Body SAR (USA)
+Additional features,Additional features
